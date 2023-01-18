@@ -1,13 +1,26 @@
+*{
+    font-family: sans-serif ;
+}
+
+body{
+    min-width: 558px;
+    margin: 0;
+}
+
 .head{
-    padding: 0 100px;
+    padding: 0 200px;
     background-color: #1F2937;
-    color: #F9FAF8;
+    
+    overflow: hidden;
+    
+
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     //border: 2px solid blue;
+    min-width: 558px;
     
 }
 
@@ -19,7 +32,8 @@
 
 h1{
     font-size: 24px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    //font-family: Impact, sans-serif;
+    
 }
 
 .headlogo{
@@ -27,7 +41,7 @@ h1{
     font-size: 24px;
     display: flex;
     align-items: center;
-    
+    color: #F9FAF8; 
 
 }
 
@@ -36,8 +50,11 @@ h1{
 .titlebox{
     display: flex;
     justify-content: space-between;
-    padding: 40px 0;
-    max-height: 160px;
+    padding: 80px 0;
+    max-height: 180px;
+    min-width: 560px;
+    
+    
 }
 
 h2{
@@ -45,32 +62,62 @@ h2{
     font-weight: 800;
     margin: 0;
     margin-bottom: 10px;
+    color: #F9FAF8; 
     
+}
+
+.left p{
+    margin: 15px 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.left button{
+    padding: 7px 20px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
 }
 .left{
     width: 300px; 
     flex: none;  
+    display: inline-block;
 }
 .picklebox{
      
     display : flex;
-    max-width: 300px;
+    flex: auto;
+    width : 2000px;
+    
     justify-content: end;
    // border: 2px red solid;
+    opacity: 0.5;
+    
     
 }
 
 .picklebox img{
     
-    max-width: 100%;
-    object-fit: cover;
+    width: 300px;
+    border-radius: 10px;
+    border : 2px solid hsla(0, 0%, 100%, 50%);
+    box-shadow: 0 0 5px black;
     
+    object-fit: cover; 
+    transition: 0.3s;
+}
+.picklebox img:hover{
+    border : 2px solid hsla(0, 0%, 100%, 90%);
+    box-shadow: 0 0 5px 5px rgb(196, 196, 196);
 }
 
 .nav{
     display: flex;
     list-style: none;
     gap: 10px;
+    color: #E5E7EB;
 
 }
 
