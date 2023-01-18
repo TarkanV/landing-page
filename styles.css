@@ -1,0 +1,76 @@
+.head{
+    padding: 0 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //border: 2px solid blue;
+    
+}
+
+.header img{
+
+    max-width: 50px;
+    
+}
+
+h1{
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.headlogo{
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+
+.titlebox{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    max-height: 160px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+.left{
+    width: 300px; 
+    flex: none;  
+}
+.picklebox{
+     
+    display : flex;
+    max-width: 300px;
+    justify-content: end;
+   // border: 2px red solid;
+    
+}
+
+.picklebox img{
+    
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
