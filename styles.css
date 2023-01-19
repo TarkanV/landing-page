@@ -65,7 +65,8 @@ h1{
     font-weight: 800;
     margin: 0;
     margin-bottom: 10px;
-    color: #F9FAF8; 
+    color: #F9FAF8;
+  
     
 }
 
@@ -75,7 +76,7 @@ h1{
     font-size: 18px;
 }
 
-.left button{
+.signup{
     padding: 7px 20px;
     color: white;
     background-color: #3882F6;
@@ -180,7 +181,8 @@ footer{
 .b2{
     background-color: #E5E7EB;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    gap: 200px;
     align-items: center;
     padding: 60px 100px;  
  
@@ -210,7 +212,7 @@ footer{
 .b2 p:last-of-type{
     font-weight: bold;
     
-    text-indent: 50%;
+    text-indent: 10%;
 }
 .pfbox{
  max-width: 400px;   
@@ -220,4 +222,42 @@ footer{
 }
 .b2 img{
     max-width: 100%;
+}
+
+.b3{
+    /*padding: 200px 200px;*/
+}
+.callbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 130px;
+    max-width: 100%;
+    margin: 100px auto;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    align-items: center;
+    border-radius: 10px;
+   
+
+}
+#signup-message{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px 0;
+    
+}
+
+.callbox p:last-of-type{
+   color: #E5E7EB; 
+   font-size: 20px;
+   margin: 5px 0;
+}
+
+.callbox > .signup{
+    border: 3px solid white;
+
+    font-size: 20px;
+    padding: 5px 35px;
+    
+    
 }
