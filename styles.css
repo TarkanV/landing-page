@@ -3,14 +3,14 @@
 }
 
 body{
-    min-width: 558px;
+   // min-width: 558px;
     margin: 0;
 }
 
 .head{
     background-color: #1F2937;
-    
-    overflow: hidden;
+    min-width: 558px;
+    //overflow: hidden;
 }
 
 .head, .body{
@@ -85,15 +85,15 @@ h1{
     font-weight: bold;
 }
 .left{
-    width: 450px; 
-    flex: none;  
-    display: inline-block;
+    max-width: 450px; 
+    min-width: 200px;
+    
 }
 .picklebox{
      
     display : flex;
     flex: auto;
-    width : 2000px;
+    
     
     justify-content: end;
     opacity: 0.5;
@@ -188,6 +188,7 @@ footer{
     text-align: center;
     padding: 30px 0;
     font-size : 18px;
+    
 }
 
 .b2{
@@ -197,6 +198,7 @@ footer{
     gap: 20px;
     align-items: center;
     padding: 60px 100px;  
+    min-width: 600px;
  
 }
 
@@ -249,6 +251,8 @@ footer{
     color: #F9FAF8;
     align-items: center;
     border-radius: 10px;
+    min-width: 400px;
+    gap: 10px;
    
 
 }
