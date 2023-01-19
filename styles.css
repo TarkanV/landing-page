@@ -163,6 +163,17 @@ h1{
     filter: grayscale(0%);
     transition: 0.3s;
 }
+#harry:hover{
+    content: url("./img/harry.png");
+    max-width: 100%;
+    
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 1px #3882F6;
+    
+}
+
+
 .b1 div p {
     margin: 0;
     color: hsl(0, 0, 20%) 
