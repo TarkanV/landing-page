@@ -8,18 +8,20 @@ body{
 }
 
 .head{
-    padding: 0 200px;
     background-color: #1F2937;
     
     overflow: hidden;
-    
-
 }
+
+.head, .body{
+    padding: 0 200px;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    //border: 2px solid blue;
+
     min-width: 558px;
     
 }
@@ -32,7 +34,7 @@ body{
 
 h1{
     font-size: 24px;
-    //font-family: Impact, sans-serif;
+
     
 }
 
@@ -57,7 +59,7 @@ h1{
     
 }
 
-h2{
+.left h2{
     font-size: 48px;
     font-weight: 800;
     margin: 0;
@@ -92,7 +94,6 @@ h2{
     width : 2000px;
     
     justify-content: end;
-   // border: 2px red solid;
     opacity: 0.5;
     
     
@@ -108,10 +109,12 @@ h2{
     object-fit: cover; 
     transition: 0.3s;
 }
+/*
 .picklebox img:hover{
     border : 2px solid hsla(0, 0%, 100%, 90%);
     box-shadow: 0 0 5px 5px rgb(196, 196, 196);
 }
+*/
 
 .nav{
     display: flex;
@@ -121,3 +124,44 @@ h2{
 
 }
 
+.b1header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+        
+}
+
+/*Body elements*/
+.b1{
+    
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 590px;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.b1 div{
+    flex: 0 1 auto;
+    max-width: 180px;
+    text-align: center;
+    margin-top: 20px;
+       
+}
+.b1 div img{
+    max-width: 100%;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 1px #3882F6;
+    filter: grayscale(100%);
+    
+}   
+.b1 div img:hover{
+    filter: grayscale(0%);
+    transition: 0.3s;
+}
+.b1 div p {
+    margin: 0;
+    color: hsl(0, 0, 20%) 
+}
